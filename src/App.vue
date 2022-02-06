@@ -12,7 +12,7 @@
   </div>
   <img alt="Vue logo" src="./assets/logo.png" />
   <!-- <div v-for="(product, i) in products" :key="i"> -->
-    <!-- <img
+  <!-- <img
       :src="require('./assets/img/img' + (i + 1) + '.jpg')"
       alt="이미지"
       class="room-img"
@@ -24,9 +24,9 @@
   <!-- </div> -->
 
   <div v-for="(product, index) in exProducts" :key="index">
-    <img :src="product.image" alt="이미지">
-    <h4>{{product.title}}</h4>
-    <p>{{product.price}}</p>
+    <img :src="product.image" alt="이미지" />
+    <h4>{{ product.title }}</h4>
+    <p>{{ product.price }}</p>
   </div>
 </template>
 
